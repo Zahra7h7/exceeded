@@ -8,11 +8,11 @@ int main(int argc, char *argv[]) {
     for(i = 0; i < n; i++){
         scanf("%d %d",&x[i],&y[i]);
     }
-    if(n == 1)
-        max = 1;
-    else if(n == 2)
-    	max = 2;
-    else{
+//    if(n == 1)
+//        max = 1;
+//    else if(n == 2)
+//    	max = 2;
+//    else{
     	
     for(i = 0; i < n - 2; i++){
         for(j = i + 1; j < n - 1; j++){
